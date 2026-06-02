@@ -12,6 +12,6 @@ int main() {
     std::string cmd;
     std::cin>>cmd;
     if(cmd=="")break;
-    std::cout<<cmd<<": command not found";
+    std::cout<<cmd<<": command not found"<<std::endl;
   }
 }
